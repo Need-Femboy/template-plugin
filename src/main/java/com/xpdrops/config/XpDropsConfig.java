@@ -287,6 +287,19 @@ public interface XpDropsConfig extends Config
 	{
 		return Color.WHITE;
 	}
+	
+	@Alpha
+	@ConfigItem(
+			keyName = "xpDropColorTribrid",
+			name = "Xp drop color tribrid",
+			description = "Color of the XP drop text when praying tribrid prayers",
+			position = 10,
+			section = xp_drop_settings
+	)
+	default Color xpDropColorTribrid()
+	{
+		return Color.WHITE;
+	}
 
 	@ConfigItem(
 		keyName = "fontName",

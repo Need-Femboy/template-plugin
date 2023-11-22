@@ -220,6 +220,8 @@ public class XpDropOverlayUtilities
 				return config.xpDropColorMage();
 			case RANGE:
 				return config.xpDropColorRange();
+			case TRIBRID:
+				return config.xpDropColorTribrid();
 		}
 		return Color.WHITE;
 	}

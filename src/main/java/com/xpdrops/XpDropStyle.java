@@ -5,5 +5,6 @@ public enum XpDropStyle
 	DEFAULT,
 	MELEE,
 	MAGE,
-	RANGE
+	RANGE,
+	TRIBRID
 }
